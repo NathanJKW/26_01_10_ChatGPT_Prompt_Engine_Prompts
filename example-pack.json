@@ -5,9 +5,11 @@
     {
       "id": "rewrite-friendly",
       "name": "Rewrite Friendly",
-      "prompt": "Rewrite the following text in a friendly tone:\n\n{{text}}",
+      "prompt": "Rewrite in a {{tone}} tone.\n\n{{text}}\n\nUse emojis: {{useEmojis}}",
       "variables": {
-        "text": { "type": "textarea", "required": true }
+        "tone": { "type": "select", "required": true, "options": ["friendly", "professional"] },
+        "text": { "type": "textarea", "required": true },
+        "useEmojis": { "type": "boolean", "required": false, "default": false }
       }
     }
   ]
