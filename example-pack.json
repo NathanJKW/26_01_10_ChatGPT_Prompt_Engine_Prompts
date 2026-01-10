@@ -1,0 +1,14 @@
+{
+  "id": "example-pack",
+  "name": "Example Pack",
+  "templates": [
+    {
+      "id": "rewrite-friendly",
+      "name": "Rewrite Friendly",
+      "prompt": "Rewrite the following text in a friendly tone:\n\n{{text}}",
+      "variables": {
+        "text": { "type": "textarea", "required": true }
+      }
+    }
+  ]
+}
