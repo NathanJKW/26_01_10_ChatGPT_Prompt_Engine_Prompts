@@ -268,9 +268,6 @@ User task:
 DSL manual (authoritative reference):
 {{dslManual}}
 
-@pack uk-thailand-legal-adviser
-@name UK–Thailand Legal Adviser Pack
-
 @template strict-deterministic
 @name UK–Thailand Legal Expert (Strict)
 @description Deterministic, compliance-first personal adviser for UK passport holders covering Thailand visas, UK–Thailand tax law, and UK company law.
