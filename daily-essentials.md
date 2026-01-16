@@ -265,6 +265,9 @@ Rules:
 User task:
 {{task}}
 
+DSL manual (authoritative reference):
+{{dslManual}}
+
 @pack uk-thailand-legal-adviser
 @name UK–Thailand Legal Adviser Pack
 
@@ -316,8 +319,4 @@ Provide a **clear, structured response** that may include, where relevant:
 
 USER QUERY
 {{userQuery}}
-
-
-DSL manual (authoritative reference):
-{{dslManual}}
 
